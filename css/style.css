@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;700&display=swap');
+
 .img-cut {
     object-fit: cover;
     border-radius: 50%;
@@ -53,25 +57,13 @@
     padding: 90px 30px;
   }
 
-  .first-service .front,
+  .first-service .front{
+    background-color: #3B4358;
+  }
 .first-service .back {
-	background-color: gray;
+  background-color: #D0826F;
 }
 
-.second-service .front,
-.second-service .back {
-	background-color: gray;
-}
-
-.third-service .front,
-.third-service .back {
-	background-color: gray;
-}
-
-.fourth-service .front,
-.fourth-service .back {
-	background-color: gray;
-}
 
 .front .icon {
 	width: 140px;
@@ -81,7 +73,7 @@
 	background-color: transparent;
 	border: 1px solid #fff;
 	border-radius: 50%;
-	margin: 30px auto;
+  margin: 30px auto;
 }
 
 .flip-container {
@@ -130,11 +122,10 @@
     padding: 15px;
     padding-left: 25px;
     border-radius: 300px;
-    height:100px;
+    height:125px;
     width: 550px;
     border: .5px solid lightgray;
     background-color: white;
-    box-shadow: 3px 3px 5px #aaaaaa;
     position: absolute; 
     z-index: 1;
     display:none;
@@ -143,5 +134,46 @@
   }
 
 
+  .btn-primary1{
+    color: white;
+    background-color: #3B4358;
+    border-color: #3B4358;
+  }
+  .btn-primary1:hover{
+    color: white;
+    background-color: #D0826F;
+    border-color: #D0826F;
+  }
+  .btn-primary1:active{
+    color: white;
+    background-color: #D0826F;
+    border-color: #D0826F;
+  }
 
+  .btn-outline-primary:hover {
+    color: #fff;
+    background-color: #D0826F;
+    border-color: #D0826F;
+  }  
   
+  .btn-outline-primary {
+    color: #3B4358;
+    background-color: transparent;
+    border-color: #3B4358;
+  }
+
+  .g-text{
+    font-family: 'Montserrat', sans-serif; 
+    color: #3B4358;
+  }
+  
+  #prlx-lyr-1{
+    position: fixed;
+    background-color: #D0826F;
+    border-radius: 50%;
+    width: 50px;
+  }
+
+  #content-layer{
+    position: absolute;
+  }

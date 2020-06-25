@@ -10,7 +10,7 @@ $(document).ready(function()
 
       var link = document.createElement('a');
         link.download = 'CV: Carlos Leon.pdf';
-        link.innerHTML = '<button class="btn btn-primary">Descargar</button>';
+        link.innerHTML = '<button class="btn btn-primary1">Descargar</button>';
         link.href = 'data:application/octet-stream;base64,' + b64;
         var downPDF = document.getElementById("down-btn");
         downPDF.appendChild(link);
@@ -30,3 +30,10 @@ $(document).ready(function()
 function showGlobe(){
   $("#globe").is(":hidden") ? $("#globe").fadeIn() : $("#globe").fadeOut();
 }
+
+function parallax(){
+  var prlx = document.getElementById('prlx-lyr-1');
+  prlx.style.top = -(window.pageYOffset/4) + 'px' ; 
+}
+
+window.addEventListener("scroll", parallax, false);
