@@ -31,9 +31,31 @@ function showGlobe(){
   $("#globe").is(":hidden") ? $("#globe").fadeIn() : $("#globe").fadeOut();
 }
 
-function parallax(){
-  var prlx = document.getElementById('prlx-lyr-1');
-  prlx.style.top = -(window.pageYOffset/4) + 'px' ; 
+// function parallax(){
+//   var prlx = document.getElementById('prlx-lyr-1');
+//   prlx.style.top = -(window.pageYOffset/4) + 'px' ; 
+// }
+
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+  // $('#navbar').hide('fast');
+  // $('#me').hide('fast');
+
 }
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+  // $('#navbar').show('fast');
+  // $('#me').show('fast');
+}
+
+$(document).scroll(function(evt){
+  var v2 = Math.abs($('#land').position().top - $(window).height()/2);
+  var v1 = $(this).scrollTop();
+      if( v1 > v2 ){
+    console.log('in');
+      $('#land').addClass('fade-in')
+    }
+});
 
 window.addEventListener("scroll", parallax, false);
