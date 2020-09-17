@@ -49,13 +49,5 @@ function closeNav() {
   // $('#me').show('fast');
 }
 
-$(document).scroll(function(evt){
-  var v2 = Math.abs($('#land').position().top - $(window).height()/2);
-  var v1 = $(this).scrollTop();
-      if( v1 > v2 ){
-    console.log('in');
-      $('#land').addClass('fade-in')
-    }
-});
 
 window.addEventListener("scroll", parallax, false);

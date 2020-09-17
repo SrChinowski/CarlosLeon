@@ -209,7 +209,7 @@
   }
   
   .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
+    color: #EBA74C!important;
   }
   
   .overlay .closebtn {
@@ -227,21 +227,38 @@
 
 
 
-    .mail-sticky{
-      box-shadow: 2px 2px 2px 1px rgba(22, 22, 22, 0.2);
-      background-color: rgb(81, 118, 240);
-      padding: 10px;
-      z-index: 99;
-      position: fixed;
-      right: -90px;
-      bottom: 10vh;
-      border-radius: 15px 0 0 15px;
-      transition: ease 0.3s;
-    }
-    .mail-sticky:hover{
-      right: 0;
-      cursor: pointer;
-    }
+  .mail-sticky{
+    box-shadow: 2px 2px 2px 1px rgba(22, 22, 22, 0.2);
+    background-color: rgb(81, 118, 240);
+    padding: 10px;
+    z-index: 99;
+    position: fixed;
+    right: -47px;
+    bottom: 8.5vh;
+    border-radius: 15px 0 0 15px;
+    transition: ease 0.3s;
+  }
+  .mail-sticky:hover{
+    right: 0;
+    cursor: pointer;
+  }
+ 
+
+  .wa-sticky{
+    box-shadow: 2px 2px 2px 1px rgba(22, 22, 22, 0.2);
+    background-color: #40C351;
+    padding: 10px;
+    z-index: 99;
+    position: fixed;
+    right: -105px;
+    bottom: 2vh;
+    border-radius: 15px 0 0 15px;
+    transition: ease 0.3s;
+  }
+  .wa-sticky:hover{
+    right: 0;
+    cursor: pointer;
+  }
 
 .fade-in { 
   animation: fadeInAnimation ease 1.5s ;
