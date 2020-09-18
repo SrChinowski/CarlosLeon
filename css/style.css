@@ -17,6 +17,16 @@
     height: 500px;
 }
 
+.dot{
+  height: 30vw;
+  width: 30vw;
+  background-color: #4B6BEB;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+}
+
 .flipper {
     -webkit-transition: 0.3s all;   
     -webkit-transition-delay: 0.3s; 
