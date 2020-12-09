@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carlos Leon</title>
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
+        <!-- <script async src="https:&#x2F;&#x2F;sdk.canva.com&#x2F;v1&#x2F;embed.js"></script> -->
+        <link rel="stylesheet" href="../css/style.css">
+    
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+            crossorigin="anonymous">
+        <script src="../Js/index.js"></script>
+        <script src='https://unpkg.com/typewriter-effect@2.3.1/dist/core.js'></script>
+    </head>
+<body style="background-color: #FCF9F3; overflow-x: hidden;" >
+    <a href="mailto:cleonve@icloud.com?Subject=Let's%20work%20togueter!" class='mail-sticky d-flex align-items-center' style="text-decoration: none;">
+        <img src="../Assets/Images/correo.png"/>
+        <h5 class='ml-2 mb-0' style="color: white;"> Mail </h5>
+    </a>
+    <a href="https://api.whatsapp.com/send?phone=525519624220" target="_blank" class='wa-sticky d-flex align-items-center' style="text-decoration: none; ">
+        <img src="../Assets/Images/whatsapp.png" style="padding: 0 5px;"/>
+        <h5 class='ml-2 mb-0' style="color: white;"> WhatsApp </h5>
+    </a>
+    <!-- <img class="fade-in-right" src="../Assets/Images/Untitled-1.png" width="60%" style="position: absolute; left: -22vw; bottom: -43vh; z-index: -1;"/> -->
+    <img class="fade-in-right" src="../Assets/Images/Untitled-2.png" width="60%" style="position: absolute; left: -22vw; top: -43vh; z-index: -1; transform: rotate(90deg);"/>
+
+    <!-- <img class="fade-in-left" src="../Assets/Images/propUp1.png" width="60%" style="position: absolute; right: -18vw; top: -43vh; z-index: -1;"/> -->
+    <img class="fade-in-left" src="../Assets/Images/propUp0.png" width="60%" style="position: absolute; right: -18vw; bottom: -43vh; z-index: -1; transform: rotate(90deg);"/>
+
+        <div id="myNav" class="overlay">
+            <a class="closebtn container d-flex justify-content-end" onclick="closeNav()">&times;</a>
+            <div class="container d-flex flex-column justy-content-center align-items-center" style="margin-top: 10vh;">
+                <a class="nav-hover nav-link scroll-link" href="../index.html" onclick="goToHome('hero')" data-id="hero" style="color: white;">Inicio </a>
+                <a class="nav-hover nav-link scroll-link" href="../index.html" onclick="goToHome('experience')" data-id="experience" style="color: white;">Experiencia</a>
+                <a class="nav-hover nav-link scroll-link" onclick="goToPl()" style="color: white;">Programacion Lineal</a>
+                <a class="nav-hover nav-link scroll-link" href="#" onclick="goToHome('proyects')" data-id="proyects" style="color: white;">Proyectos</a>
+                <a class="nav-hover nav-link scroll-link" href="#" onclick="goToHome('adventures')" data-id="adventures" style="color: white;">Aventuras</a>
+                <a class="nav-hover nav-link scroll-link" href="#" onclick="goToHome('contact')" data-id="contact" style="color: white;">Contacto</a>
+            </div>
+        </div>
+
+        <section id="navbar" class="fixed-top mt-3" style="padding: 0; z-index: 1;">
+            <nav class="navbar container navbar-expand-lg navbar-light d-flex justify-content-between" style="padding: 8px 0; letter-spacing: 2px;">
+                <div>
+                    <a class="navbar-brand" href="../index.html" style="font-family: 'Montserrat', sans-serif; font-weight: 700; color: #3B4358;">CARLOS LEÓN</a>
+                </div>
+                
+                <div style="cursor: pointer;">
+                    <img src="../Assets/Images/open-menu.png" style="width: 30px; " onclick="openNav()" style="cursor: pointer;">
+                </div>
+              </nav>
+        </section>
+
+        <section id="hero" class="container d-flex align-items-center justify-content-center parallax " style="height: 100vh; ">
+            <div id="land" class="row w-100 fade-in">
+                <div class="col-sm m-0 ml-5 p-0 d-flex justify-content-center flex-column">
+                    
+                    <h2 style="font-family: 'Montserrat', sans-serif; font-weight: 200;color: #3B4358; letter-spacing: 2px; font-size: 25px;">Hola!</h2>
+                    <h1 style="font-family: 'Montserrat', sans-serif; font-weight: 200; color: #3B4358; letter-spacing: 2px;">Soy
+                        <b style="font-family: 'Montserrat', sans-serif; font-weight: 700; letter-spacing: 1px; color: #3B4358; font-size: 45px;"> Carlos Leon</b> </h1>
+                    <h4 id='app' style="font-family: 'Montserrat', sans-serif; font-weight: 300;color: #EBA74C; letter-spacing: 2px; font-size: 25px;">y puedo optimizar procesos</h4>
+                    <p class="g-text" style="text-justify: distribute;"> 
+                        Con ayuda de metodos de programacion lineal <br> 
+                        se puede analizar las variables y las restricciones del caso  <br>
+                        y poder llegar a la solucion mas optima.  
+                    </p>
+                    <div class="">
+                        <button class="btn btn-primary1" ><a href="#how" style='color: white'>Saber Mas</a></button>
+                        <!-- <button class="btn btn-outline-primary" onclick="showGlobe()">Mi Objetivo </button> -->
+                    </div>
+                </div>
+                <div class="col-sm m-0 p-0 d-flex justify-content-center">
+                    <img id="me" src="../Assets/Images/estocastic.svg" alt="yo" style="z-index: 5; width: 30vw;">
+                </div>
+            </div>
+        </section>
+
+        <section id="how" style="height: 100vh; background-color: #FCF9F3; z-index: 5;" class="d-flex flex-column align-items-center justify-content-center">
+            <div class="dot" style="bottom: -63vw; right:  -19vw; background: #F4D3A5;"></div>
+            <div class="dot" style="bottom: -76vw; right: -12vw; background-color: #EBA64B;"></div>
+            <h1 class="d-flex align-items-center justify-content-center container"  style="font-family: 'Montserrat', sans-serif; font-weight: 200; color: #3B4358; letter-spacing: 2px;">
+                La Programación Lineal corresponde a un algoritmo a 
+                través del cual se pueden resolver situaciones 
+                en las que se pretende identificar y resolver 
+                dificultades para aumentar la productividad, esto se puede lograr con:
+            </h1>
+            <div class="container" style="width: 90vw; max-width: none; margin: 0 5vw;">
+                <div class="card" style="background-color: transparent; border: none;">
+                    <div class="face face1" style="background-color: #EBA74C;">
+                        <div class="d-flex justify-content-center flex-column align-items-center">
+                            <img src="../Assets/Images/development.png" alt="" width="65%" style="padding-bottom: 14px;">
+                            <h4 class="title" style="color: white;">Metodo Grafico</h4>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p style="text-align: start;"> <b>Metodo Grafico</b>  <br><br>
+                            <p class="description" style="text-align: start;">
+                                Este metodo consiste de una funcion objetivo a 
+                                maximizar o minimizar, limitada por una serie de restricciones logicas del mismo problema </p>
+                                <br>
+                            <!-- <button class="btn btn-primary1" ><a href="https://srchinowski.github.io/LinearProgramming-Calculator/" target="_blank" style='color: white'>Saber Mas</a></button> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="background-color: transparent; border: none;">
+                    <div class="face face1" style="background-color: #EBA74C;">
+                        <div class="d-flex justify-content-center flex-column align-items-center">
+                            <img src="../Assets/Images/phone.png" alt="" width="65%" style="padding-bottom: 14px;">
+                            <h4 class="title" style="color: white;">Metodo Simplex </h4>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p style="text-align: start;"> <b>Metodo Simplex</b>  <br><br>
+                            <p class="description" style="text-align: start;">
+                                Este metodo consiste de una funcion objetivo a 
+                                maximizar o minimizar, limitada por una serie de restricciones logicas del mismo problema </p>
+                                
+                            <!-- <button class="btn btn-primary1" ><a href="https://srchinowski.github.io/LinearProgramming-Calculator/" target="_blank" style='color: white'>Saber Mas</a></button> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="background-color: transparent; border: none;">
+                    <div class="face face1" style="background-color: #EBA74C;">
+                        <div class="d-flex justify-content-center flex-column align-items-center">
+                            <img src="../Assets/Images/telephone.png" alt="" width="65%" style="padding-bottom: 14px;">
+                            <h4 class="title" style="color: white;">Teoria de Colas</h4>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <h4 class="title">Community Manager</h4>
+                            <p style="text-align: start;"> <b>Pizzas Veronna</b> <br/> 17 Junio 2017 -  19 Agosto 2017  </p><br/> 
+                            <p class="description" style="text-align: start;">&middot; Administración de la cuenta de Facebook e Instagram <br>=
+                                &middot; Generación de contenidos digitales para redes sociales. <br>
+                                &middot; Supervisión de servicio al cliente. <br> </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card" style="background-color: transparent; border: none;">
+                    <div class="face face1" style="background-color: #EBA74C;">
+                        <div class="d-flex justify-content-center flex-column align-items-center">
+                            <img src="../Assets/Images/telephone.png" alt="" width="65%" style="padding-bottom: 14px;">
+                            <h4 class="title" style="color: white;">Cadenas De Markov</h4>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <h4 class="title">Community Manager</h4>
+                            <p style="text-align: start;"> <b>Pizzas Veronna</b> <br/> 17 Junio 2017 -  19 Agosto 2017  </p><br/> 
+                            <p class="description" style="text-align: start;">&middot; Administración de la cuenta de Facebook e Instagram <br>=
+                                &middot; Generación de contenidos digitales para redes sociales. <br>
+                                &middot; Supervisión de servicio al cliente. <br> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id='graf' class="container d-flex justify-content-center align-items-center" style="padding: 5vh 0; height: 100vh;">
+            <div class="dot" style="bottom: -9vw; left: -28vw; background: #A9B7F0;"></div>
+            <div class="dot" style="bottom: -3vw; left: -38vw;"></div>
+            
+            <div class="row w-100 fade-in">
+                <div class="col-sm m-0 ml-5 p-0 d-flex justify-content-center flex-column">
+                    
+                    <h4 style="font-family: 'Montserrat', sans-serif; font-weight: 300;color: #EBA74C; letter-spacing: 2px; font-size: 25px;">Tienda de Ropa</h4>
+                    <p class="g-text" style="text-justify: distribute;"> 
+                        <br>
+                        Un almacen desea liquidar 200 camisas y 100 pantalones <br>
+                        Para ello lanzan dos ofertas, A y B. <br><br>
+
+                        La oferta A consiste en un paquete de una camisa   <br>
+                        y un pantalón, que se venden a $30; la oferta B  <br>
+                        consiste en un paquete de tres camisas y un pantalón,  <br>
+                        que se vende a $50. No se desea vender menos de 20 <br>
+                        paquete de la oferta A ni menos de 10 de la B. <br><br>
+
+                        ¿Cuántos paquetes ha de vender de cada tipo para maximizar la ganancia? <br>
+                        <br>
+
+                    </p>
+                    <div class="">
+                        <button class="btn btn-primary1" data-toggle="modal" data-target="#cv" >Solucion</button>
+                        <!-- <button class="btn btn-outline-primary" onclick="showGlobe()">Mi Objetivo </button> -->
+                    </div>
+                </div>
+            </div>
+            <div class="row w-100 fade-in">
+                <div class="col-sm m-0 p-0 d-flex justify-content-center">
+                    <img id="me" src="../Assets/Images/undraw_multitasking_hqg3.svg" alt="yo" style="z-index: 5; width: 25vw;">
+                </div>
+            </div>
+            
+            
+        </section>
+
+    </section>
+    <section id='contact' class="d-flex flex-column justify-content-center align-items-center" style=" height: 50vh; background-color: #384157; position: absolute; z-index: 8; width: 100vw;"> 
+
+        <div class="row d-flex align-items-center" style="width: 70vw; ">
+
+            <div class="col">
+                <h1 style="font-family: 'Montserrat', sans-serif; font-weight: 700; letter-spacing: 1px;  color: white;  font-size:80px;">Contacto</h1>
+            </div>
+
+            <div class="col">
+                <div class="d-flex flex-column ">
+                    <div class="row align-items-center">
+                        <img src="../Assets/Images/link-icon.png" alt="" width="35px" height="35px" style="margin:10px  0">
+                        &nbsp;&nbsp;&nbsp;  <a href="https://www.linkedin.com/in/carlos-leon-vera-1b4526183/" style="font-family: 'Montserrat', sans-serif; font-weight: 200;color: white; letter-spacing: 2px; font-size: 25px; text-decoration: none;"> Carlos Leon Vera</a>
+                    </div>
+                    <div class="row align-items-center">
+                        <img src="../Assets/Images/github-sign.png" alt="" width="35px" height="35px" style="margin:10px  0">
+                        &nbsp;&nbsp;&nbsp;  <a href="https://github.com/SrChinowski" style="font-family: 'Montserrat', sans-serif; font-weight: 200;color: white; letter-spacing: 2px; font-size: 25px; text-decoration: none;"> Carlos Leon</a>
+                    </div>
+                    <div class="row align-items-center">
+                        <img src="../Assets/Images/mail-icon.png" alt="" width="35px" height="35px" style="margin:10px  0">
+                        <p style="font-family: 'Montserrat', sans-serif; font-weight: 200;color: white; letter-spacing: 2px; font-size: 25px; text-decoration: none; margin: 0;"> &nbsp;&nbsp;cleonve@icloud.com </p>
+                    </div>
+                    <div class="row align-items-center">
+                        <img src="../Assets/Images/whatsapp-icon.png" alt="" width="35px" height="35px" style="margin:10px     0">
+                        <p style="font-family: 'Montserrat', sans-serif; font-weight: 200;color: white; letter-spacing: 2px; font-size: 25px; margin: 0;"> &nbsp;&nbsp;+52 55 1962 4220</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+    <div id="cv" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+              <div class="modal-body" >
+                  <img src="../Assets/Images/problema1.png" style="width: 100%">
+              </div>
+          </div>
+        </div>
+    </div>
+</body>
+</html>

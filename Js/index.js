@@ -16,6 +16,8 @@ $(document).ready(function()
         downPDF.appendChild(link);
   });
 
+
+
   function scrollToID(id, speed){
     var offSet = 0;
     var targetOffset = $(id).offset().top - offSet;
@@ -49,5 +51,14 @@ function closeNav() {
   // $('#me').show('fast');
 }
 
+function goToHome(path){
+  document.getElementById("myNav").style.height = "0%";
+  location.replace("../index.html#"+path);
+}
+
+function goToPl(){
+  document.getElementById("myNav").style.height = "0%";
+  location.replace("./pages/programacion-lineal.html");
+}
 
 window.addEventListener("scroll", parallax, false);
